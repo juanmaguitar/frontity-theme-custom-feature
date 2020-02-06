@@ -1,5 +1,5 @@
 {
-  "name": "-tutorial",
+  "name": "demotutorial",
   "version": "1.0.0",
   "private": true,
   "description": "Frontity project",
@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "frontity dev",
     "build": "frontity build",
-    "serve": "frontity serve"
+    "serve": "frontity serve",
+    "deploy": "npx now"
   },
   "prettier": {},
   "dependencies": {
